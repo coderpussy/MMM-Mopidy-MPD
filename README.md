@@ -1,4 +1,4 @@
-# MagicMirror Module: MMM-Mopidy-MPD
+# MMM-Mopidy-MPD
 
 This module uses MPD (Music Player Deamon) to connect to your favorite music player, for example mopidy, 
 and shows the current state of your music player on your magic mirror.
@@ -14,19 +14,19 @@ This is a fork from Tim Jongsma's MMM-MPD module. But after no respond from him 
 
 In your terminal, go to your MagicMirror's Module folder:
 
-````bash
+````sh
 cd ~/MagicMirror/modules
 ````
 
 Clone this repository:
 
-````bash
+````sh
 git clone https://github.com/coderpussy/MMM-Mopidy-MPD.git
 ````
 
 Run npm install in the module folder:
 
-````bash
+````sh
 npm install
 ````
 
@@ -36,7 +36,7 @@ Configure the module in your `config/config.js` file.
 
 If you want to update your MMM-MPD module to the latest version, use your terminal to go to your MMM-MPD module folder and type the following command:
 
-````bash
+````sh
 git pull && npm install
 ````
 
@@ -46,7 +46,7 @@ Type `git status` to see your changes, if there are any, you can reset them with
 ## Using the module
 
 To use this module, add it to the modules array in the `config/config.js` file:
-````javascript
+````js
 modules: [
 	{
 		module: "MMM-Mopidy-MPD",
@@ -78,6 +78,6 @@ The following properties can be configured:
 
 Stop and start your Magic Mirror (your exact method may vary)
 
-````bash
+````sh
 pm2 restart mm
 ````
