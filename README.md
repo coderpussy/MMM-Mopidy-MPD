@@ -1,4 +1,4 @@
-# MagicMirror Module: MMM-MPD
+# MagicMirror Module: MMM-Mopidy-MPD
 
 This module uses MPD (Music Player Deamon) to connect to your favorite music player, for example mopidy, 
 and shows the current state of your music player on your magic mirror.
