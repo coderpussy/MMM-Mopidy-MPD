@@ -10,6 +10,10 @@ This is a fork from Tim Jongsma's MMM-MPD module. But after no respond from him 
 
 ![screenshot of MMM-Mopidy-MPD](https://user-images.githubusercontent.com/55058372/96780350-f34c3700-13ec-11eb-8c2d-536098016fef.jpg)
 
+## ToDo
+
+This module will change in the near future to the available websocket solution ([mopidy.js](https://github.com/mopidy/mopidy.js)) from mopidy music server project.
+
 ## Installation
 
 In your terminal, go to your MagicMirror's Module folder:
@@ -81,3 +85,7 @@ Stop and start your Magic Mirror (your exact method may vary)
 ````sh
 pm2 restart mm
 ````
+
+## Credits
+- Many thx to [Tim Jongsma](https://github.com/timjong93) for the [MMM-MPD](https://github.com/timjong93/MMM-MPD) module to inspire me to make it a bit more fancy. I reused a lot of his module code.
+- Special thx to the members of [Mopidy Music Server](https://github.com/mopidy)
